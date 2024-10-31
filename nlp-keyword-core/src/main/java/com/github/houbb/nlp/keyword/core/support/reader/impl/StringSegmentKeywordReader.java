@@ -4,8 +4,8 @@ import com.github.houbb.heaven.annotation.CommonEager;
 import com.github.houbb.heaven.annotation.ThreadSafe;
 import com.github.houbb.heaven.util.guava.Guavas;
 import com.github.houbb.heaven.util.lang.ObjectUtil;
-import com.github.houbb.nlp.keyword.api.support.reader.IKeywordReader;
-import com.github.houbb.nlp.keyword.api.support.segment.IKeywordSegment;
+import com.github.houbb.nlp.keyword.core.support.reader.IKeywordReader;
+import com.github.houbb.nlp.keyword.core.support.segment.IKeywordSegment;
 
 import java.util.List;
 import java.util.Map;

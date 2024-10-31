@@ -3,8 +3,8 @@ package com.github.houbb.nlp.keyword.core.support.result.impl;
 import com.github.houbb.heaven.annotation.ThreadSafe;
 import com.github.houbb.heaven.support.handler.IMapHandler;
 import com.github.houbb.heaven.util.util.MapUtil;
-import com.github.houbb.nlp.keyword.api.core.IKeywordResult;
-import com.github.houbb.nlp.keyword.api.support.result.IKeywordResultHandler;
+import com.github.houbb.nlp.keyword.core.api.IKeywordResult;
+import com.github.houbb.nlp.keyword.core.support.result.IKeywordResultHandler;
 
 import java.util.List;
 import java.util.Map;

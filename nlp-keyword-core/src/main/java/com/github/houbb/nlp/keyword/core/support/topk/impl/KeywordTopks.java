@@ -1,7 +1,7 @@
 package com.github.houbb.nlp.keyword.core.support.topk.impl;
 
 import com.github.houbb.heaven.support.instance.impl.Instances;
-import com.github.houbb.nlp.keyword.api.support.topk.IKeywordTopk;
+import com.github.houbb.nlp.keyword.core.support.topk.IKeywordTopk;
 
 /**
  * 获取 topK 的算法

@@ -1,20 +1,20 @@
 package com.github.houbb.nlp.keyword.core.bs;
 
-
+import com.github.houbb.heaven.support.instance.impl.Instances;
 import com.github.houbb.heaven.util.common.ArgUtil;
-import com.github.houbb.nlp.keyword.api.core.IKeyword;
-import com.github.houbb.nlp.keyword.api.core.IKeywordContext;
-import com.github.houbb.nlp.keyword.api.core.IKeywordResult;
-import com.github.houbb.nlp.keyword.api.support.data.idf.IKeywordIdfData;
-import com.github.houbb.nlp.keyword.api.support.filter.IKeywordFilter;
-import com.github.houbb.nlp.keyword.api.support.reader.IKeywordReader;
-import com.github.houbb.nlp.keyword.api.support.result.IKeywordResultHandler;
-import com.github.houbb.nlp.keyword.api.support.topk.IKeywordTopk;
+import com.github.houbb.nlp.keyword.core.api.IKeyword;
+import com.github.houbb.nlp.keyword.core.api.IKeywordContext;
+import com.github.houbb.nlp.keyword.core.api.IKeywordResult;
+import com.github.houbb.nlp.keyword.core.api.impl.Keyword;
+import com.github.houbb.nlp.keyword.core.api.impl.KeywordContext;
 import com.github.houbb.nlp.keyword.core.constant.KeywordConst;
-import com.github.houbb.nlp.keyword.core.core.Keyword;
-import com.github.houbb.nlp.keyword.core.core.KeywordContext;
+import com.github.houbb.nlp.keyword.core.support.data.idf.IKeywordIdfData;
 import com.github.houbb.nlp.keyword.core.support.data.idf.impl.KeywordIdfDatas;
+import com.github.houbb.nlp.keyword.core.support.filter.IKeywordFilter;
 import com.github.houbb.nlp.keyword.core.support.filter.impl.KeywordFilters;
+import com.github.houbb.nlp.keyword.core.support.reader.IKeywordReader;
+import com.github.houbb.nlp.keyword.core.support.result.IKeywordResultHandler;
+import com.github.houbb.nlp.keyword.core.support.topk.IKeywordTopk;
 import com.github.houbb.nlp.keyword.core.support.topk.impl.KeywordTopks;
 import com.github.houbb.stoppword.core.bs.StopWord;
 import com.github.houbb.stopword.api.IStopWord;
@@ -44,14 +44,14 @@ public final class KeywordBs {
      *
      * @since 0.0.1
      */
-    private final IKeyword keyword = new Keyword();
+    private final IKeyword keyword = Instances.singleton(Keyword.class);
 
     /**
      * 默认停顿词数据
      *
      * @since 0.0.7
      */
-    private IStopWord stopWordBs = StopWord.newInstance();
+    private IStopWord stopWord = StopWord.newInstance();
 
     /**
      * 逆文档频率的默认实现
@@ -86,13 +86,13 @@ public final class KeywordBs {
 
     /**
      * 设置停顿词引导类
-     * @param stopWordBs 引导类
+     * @param stopWord 引导类
      * @return this
      * @since 0.0.7
      */
-    public KeywordBs stopWordBs(IStopWord stopWordBs) {
-        ArgUtil.notNull(stopWordBs, "stopWord");
-        this.stopWordBs = stopWordBs;
+    public KeywordBs stopWord(IStopWord stopWord) {
+        ArgUtil.notNull(stopWord, "stopWord");
+        this.stopWord = stopWord;
         return this;
     }
 
@@ -179,7 +179,7 @@ public final class KeywordBs {
      */
     private KeywordContext buildContext() {
         return KeywordContext.newInstance()
-                .stopWordBs(stopWordBs)
+                .stopWord(stopWord)
                 .idfData(idfData)
                 .topk(topk)
                 .filter(filter)

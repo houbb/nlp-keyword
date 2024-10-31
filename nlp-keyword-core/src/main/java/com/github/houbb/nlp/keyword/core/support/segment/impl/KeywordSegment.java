@@ -1,7 +1,7 @@
 package com.github.houbb.nlp.keyword.core.support.segment.impl;
 
 import com.github.houbb.heaven.annotation.ThreadSafe;
-import com.github.houbb.nlp.keyword.api.support.segment.IKeywordSegment;
+import com.github.houbb.nlp.keyword.core.support.segment.IKeywordSegment;
 import com.github.houbb.segment.bs.SegmentBs;
 import com.github.houbb.segment.support.segment.mode.impl.SegmentModes;
 import com.github.houbb.segment.support.segment.result.impl.SegmentResultHandlers;

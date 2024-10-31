@@ -2,10 +2,11 @@ package com.github.houbb.nlp.keyword.core.support.topk.impl;
 
 import com.github.houbb.heaven.annotation.ThreadSafe;
 import com.github.houbb.heaven.util.guava.Guavas;
-import com.github.houbb.nlp.keyword.api.core.IKeywordResult;
-import com.github.houbb.nlp.keyword.api.model.KeywordFreqBean;
-import com.github.houbb.nlp.keyword.api.support.topk.IKeywordTopk;
-import com.github.houbb.nlp.keyword.core.core.KeywordResult;
+import com.github.houbb.heaven.util.util.CollectionUtil;
+import com.github.houbb.nlp.keyword.core.api.IKeywordResult;
+import com.github.houbb.nlp.keyword.core.api.impl.KeywordResult;
+import com.github.houbb.nlp.keyword.core.model.KeywordFreqBean;
+import com.github.houbb.nlp.keyword.core.support.topk.IKeywordTopk;
 
 import java.util.Collections;
 import java.util.Comparator;

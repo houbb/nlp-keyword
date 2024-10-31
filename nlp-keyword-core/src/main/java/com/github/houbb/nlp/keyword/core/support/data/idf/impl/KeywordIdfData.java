@@ -4,8 +4,8 @@ import com.github.houbb.heaven.annotation.ThreadSafe;
 import com.github.houbb.heaven.util.guava.Guavas;
 import com.github.houbb.heaven.util.io.StreamUtil;
 import com.github.houbb.heaven.util.lang.StringUtil;
-import com.github.houbb.nlp.keyword.api.support.data.idf.IKeywordIdfData;
 import com.github.houbb.nlp.keyword.core.constant.KeywordConst;
+import com.github.houbb.nlp.keyword.core.support.data.idf.IKeywordIdfData;
 
 import java.math.BigDecimal;
 import java.util.List;

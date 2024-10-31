@@ -1,10 +1,10 @@
 package com.github.houbb.nlp.keyword.core.util;
 
-import com.github.houbb.nlp.keyword.api.core.IKeywordResult;
-import com.github.houbb.nlp.keyword.api.support.reader.IKeywordReader;
-import com.github.houbb.nlp.keyword.api.support.result.IKeywordResultHandler;
+import com.github.houbb.nlp.keyword.core.api.IKeywordResult;
 import com.github.houbb.nlp.keyword.core.bs.KeywordBs;
+import com.github.houbb.nlp.keyword.core.support.reader.IKeywordReader;
 import com.github.houbb.nlp.keyword.core.support.reader.impl.KeywordReaders;
+import com.github.houbb.nlp.keyword.core.support.result.IKeywordResultHandler;
 import com.github.houbb.nlp.keyword.core.support.result.impl.KeywordResultHandlers;
 import com.github.houbb.nlp.keyword.core.support.segment.impl.KeywordSegments;
 

@@ -1,7 +1,7 @@
 package com.github.houbb.nlp.keyword.core.support.segment.impl;
 
 import com.github.houbb.heaven.support.instance.impl.Instances;
-import com.github.houbb.nlp.keyword.api.support.segment.IKeywordSegment;
+import com.github.houbb.nlp.keyword.core.support.segment.IKeywordSegment;
 
 /**
  * 关键词分词实现

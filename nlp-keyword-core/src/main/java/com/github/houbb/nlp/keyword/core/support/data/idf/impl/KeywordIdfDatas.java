@@ -1,7 +1,7 @@
 package com.github.houbb.nlp.keyword.core.support.data.idf.impl;
 
 import com.github.houbb.heaven.support.instance.impl.Instances;
-import com.github.houbb.nlp.keyword.api.support.data.idf.IKeywordIdfData;
+import com.github.houbb.nlp.keyword.core.support.data.idf.IKeywordIdfData;
 
 /**
  * @author binbin.hou

@@ -1,7 +1,7 @@
 package com.github.houbb.nlp.keyword.core.support.reader.impl;
 
-import com.github.houbb.nlp.keyword.api.support.reader.IKeywordReader;
-import com.github.houbb.nlp.keyword.api.support.segment.IKeywordSegment;
+import com.github.houbb.nlp.keyword.core.support.reader.IKeywordReader;
+import com.github.houbb.nlp.keyword.core.support.segment.IKeywordSegment;
 
 import java.util.Map;
 

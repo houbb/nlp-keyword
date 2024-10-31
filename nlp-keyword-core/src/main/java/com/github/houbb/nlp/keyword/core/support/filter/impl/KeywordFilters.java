@@ -3,7 +3,7 @@ package com.github.houbb.nlp.keyword.core.support.filter.impl;
 import com.github.houbb.heaven.support.instance.impl.Instances;
 import com.github.houbb.heaven.support.pipeline.Pipeline;
 import com.github.houbb.heaven.util.util.ArrayUtil;
-import com.github.houbb.nlp.keyword.api.support.filter.IKeywordFilter;
+import com.github.houbb.nlp.keyword.core.support.filter.IKeywordFilter;
 
 /**
  * <p> project: keyword-KeywordFilters </p>

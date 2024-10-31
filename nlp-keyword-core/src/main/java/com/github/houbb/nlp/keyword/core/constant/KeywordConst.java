@@ -13,13 +13,13 @@ public final class KeywordConst {
      * 停顿词默认文件路径
      * @since 0.0.1
      */
-    public static final String SYSTEM_STOP_WORDS_PATH = "/keyword_stop_words.txt";
+    public static final String SYSTEM_STOP_WORDS_PATH = "/keyword/keyword_stop_words.txt";
 
     /**
      * 自定义停顿词默认文件路径
      * @since 0.0.3
      */
-    public static final String DEFINE_STOP_WORDS_PATH = "/keyword_stop_words_define.txt";
+    public static final String DEFINE_STOP_WORDS_PATH = "/keyword/keyword_stop_words_define.txt";
 
     /**
      * 系统内置逆向频率文档
@@ -32,7 +32,7 @@ public final class KeywordConst {
      *
      * @since 0.0.1
      */
-    public static final String SYSTEM_IDF_DICT_PATH = "/keyword_idf_dict.txt";
+    public static final String SYSTEM_IDF_DICT_PATH = "/keyword/keyword_idf_dict.txt";
 
     /**
      * 默认限制数量
