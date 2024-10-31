@@ -1,6 +1,6 @@
-# Keyword
+# nlp-keyword
 
-[Keyword](https://github.com/houbb/keyword) 高性能的 java 分词关键词提取实现，基于分词 [segment](https://github.com/houbb/segment)。
+[nlp-keyword](https://github.com/houbb/nlp-keyword) 高性能的 java 分词关键词提取实现，基于分词 [segment](https://github.com/houbb/segment)。
 
 愿景：成为 java 最好用的关键词工具。
 
@@ -15,7 +15,7 @@
 
 - 灵活的条件指定
 
-> [变更日志](https://github.com/houbb/keyword/blob/master/CHANGELOG.md)
+> [变更日志](https://github.com/houbb/nlp-keyword/blob/master/CHANGELOG.md)
 
 # 快速开始
 
