@@ -5,7 +5,7 @@
     <groupId>com.github.houbb</groupId>
     <artifactId>nlp-keyword</artifactId>
     <packaging>pom</packaging>
-    <version>1.1.0-SNAPSHOT</version>
+    <version>1.1.0</version>
     <modules>
         <module>nlp-keyword-core</module>
         <module>nlp-keyword-test</module>
@@ -34,12 +34,12 @@
         <!--============================== INTER ==============================-->
         <plugin.gen.version>1.0.6</plugin.gen.version>
 
-        <heaven.version>0.9.0</heaven.version>
+        <heaven.version>0.13.0</heaven.version>
         <test.version>0.0.1</test.version>
         <segment.version>0.3.1</segment.version>
         <stopword.version>1.0.1</stopword.version>
 
-        <sentence-segment.version>0.0.2</sentence-segment.version>
+        <sentence-segment.version>0.0.3</sentence-segment.version>
 
         <!--============================== OTHER ==============================-->
         <junit.version>4.13.1</junit.version>

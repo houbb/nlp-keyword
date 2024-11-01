@@ -87,7 +87,7 @@ public class KeywordContext implements IKeywordContext {
     }
 
     public KeywordContext stopWord(IStopWord stopWord) {
-        this.stopWord = this.stopWord;
+        this.stopWord = stopWord;
         return this;
     }
 

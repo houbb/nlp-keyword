@@ -1,9 +1,9 @@
 package com.github.houbb.nlp.keyword.summary.support.keyword.impl;
 
-import com.github.houbb.nlp.keyword.summary.support.keyword.IAutoSummaryKeyword;
 import com.github.houbb.heaven.annotation.ThreadSafe;
-import com.github.houbb.keyword.api.IKeywordResult;
-import com.github.houbb.keyword.util.KeywordHelper;
+import com.github.houbb.nlp.keyword.core.api.IKeywordResult;
+import com.github.houbb.nlp.keyword.core.util.KeywordHelper;
+import com.github.houbb.nlp.keyword.summary.support.keyword.IAutoSummaryKeyword;
 
 import java.util.List;
 
