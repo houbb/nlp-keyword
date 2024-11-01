@@ -4,10 +4,10 @@
 
 愿景：成为 java 最好用的关键词工具。
 
-[![Build Status](https://travis-ci.com/houbb/keyword.svg?branch=master)](https://travis-ci.com/houbb/keyword)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.houbb/keyword/badge.svg)](http://mvnrepository.com/artifact/com.github.houbb/keyword)
+[![Build Status](https://travis-ci.com/houbb/nlp-keyword.svg?branch=master)](https://travis-ci.com/houbb/nlp-keyword)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.houbb/keyword/badge.svg)](http://mvnrepository.com/artifact/com.github.houbb/nlp-keyword)
 [![](https://img.shields.io/badge/license-Apache2-FF0080.svg)](https://github.com/houbb/keyword/blob/master/LICENSE.txt)
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/houbb/keyword)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/houbb/nlp-keyword)
 
 ## 特性
 
