@@ -5,10 +5,11 @@
     <groupId>com.github.houbb</groupId>
     <artifactId>nlp-keyword</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>1.1.0-SNAPSHOT</version>
     <modules>
         <module>nlp-keyword-core</module>
         <module>nlp-keyword-test</module>
+        <module>nlp-keyword-summary</module>
     </modules>
 
     <properties>
@@ -38,6 +39,8 @@
         <segment.version>0.3.1</segment.version>
         <stopword.version>1.0.1</stopword.version>
 
+        <sentence-segment.version>0.0.2</sentence-segment.version>
+
         <!--============================== OTHER ==============================-->
         <junit.version>4.13.1</junit.version>
     </properties>
@@ -48,6 +51,11 @@
             <dependency>
                 <groupId>com.github.houbb</groupId>
                 <artifactId>nlp-keyword-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.houbb</groupId>
+                <artifactId>nlp-keyword-summary</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -71,6 +79,11 @@
                 <groupId>com.github.houbb</groupId>
                 <artifactId>stopword-core</artifactId>
                 <version>${stopword.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.houbb</groupId>
+                <artifactId>sentence-segment</artifactId>
+                <version>${sentence-segment.version}</version>
             </dependency>
 
             <!--============================== OTHER ==============================-->
