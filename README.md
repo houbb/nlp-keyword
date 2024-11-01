@@ -17,6 +17,8 @@
 
 - 支持 auto-summary 自动摘要生成
 
+- 文本相似度计算支持
+
 > [变更日志](https://github.com/houbb/nlp-keyword/blob/master/CHANGELOG.md)
 
 # 关键词快速开始
@@ -26,8 +28,8 @@
 ```xml
 <dependency>
     <groupId>com.github.houbb</groupId>
-    <artifactId>keyword-core</artifactId>
-    <version>1.1.0</version>
+    <artifactId>nlp-keyword-core</artifactId>
+    <version>1.2.0</version>
 </dependency>
 ```
 
@@ -68,8 +70,8 @@ Assert.assertEquals("[伸手不见]", keywords.toString());
 ```xml
 <dependency>
     <groupId>com.github.houbb</groupId>
-    <artifactId>keyword-summary</artifactId>
-    <version>1.1.0</version>
+    <artifactId>nlp-keyword-summary</artifactId>
+    <version>1.2.0</version>
 </dependency>
 ```
 
@@ -81,11 +83,38 @@ final String text = "你好啊，我的老伙计。最近过得怎么样？我�
 String summary = AutoSummaryHelper.autoSummary(text);
 ```
 
+# 文本相似度
+
+## maven 引入
+
+```xml
+<dependency>
+    <groupId>com.github.houbb</groupId>
+    <artifactId>nlp-keyword-similarity</artifactId>
+    <version>1.2.0</version>
+</dependency>
+```
+
+## 入门例子
+
+```java
+final String source = "我喜欢看电影，读书和旅游。";
+final String target = "我不喜欢看电影。我爱唱跳、RAP、Music~";
+
+double rank = SimilarityHelper.similarity(source, target);
+```
+
+结果：
+
+```
+0.677537337470188
+```
+
 # ROAD-MAP
 
 - [] 字典数据独立，便于用户自定义选择
 
-- [] 文本相似度
+- [x] 文本相似度
 
 - [x] auto-summary 自动摘要
 

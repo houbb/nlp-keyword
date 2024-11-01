@@ -9,10 +9,21 @@
         <version>1.2.0</version>
     </parent>
 
-    <artifactId>nlp-keyword-core</artifactId>
+    <artifactId>nlp-keyword-similarity</artifactId>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <dependencies>
         <!--============================== SELF ==============================-->
+        <dependency>
+            <groupId>com.github.houbb</groupId>
+            <artifactId>nlp-keyword-core</artifactId>
+        </dependency>
+
         <!--============================== INTER ==============================-->
         <dependency>
             <groupId>com.github.houbb</groupId>
@@ -20,14 +31,9 @@
         </dependency>
         <dependency>
             <groupId>com.github.houbb</groupId>
-            <artifactId>segment</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.github.houbb</groupId>
-            <artifactId>stopword-core</artifactId>
+            <artifactId>sentence-segment</artifactId>
         </dependency>
 
-        <!--============================== OTHER ==============================-->
     </dependencies>
 
 </project>
